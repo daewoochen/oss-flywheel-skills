@@ -1,0 +1,4 @@
+interface:
+  display_name: "Contributor Ramp"
+  short_description: "Improve first-time contributor onboarding"
+  default_prompt: "Use $contributor-ramp to audit this repository's onboarding flow and make it easier for first-time contributors to succeed."

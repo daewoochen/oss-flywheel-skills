@@ -1,0 +1,4 @@
+interface:
+  display_name: "Changelog to Hype"
+  short_description: "Turn release diffs into launch copy"
+  default_prompt: "Use $changelog-to-hype to turn these commits or PRs into release notes, short-form launch copy, and upgrade messaging."

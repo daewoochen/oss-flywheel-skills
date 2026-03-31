@@ -1,0 +1,4 @@
+interface:
+  display_name: "README Rescue"
+  short_description: "Rewrite a README for faster activation"
+  default_prompt: "Use $readme-rescue to audit this README and rewrite it around quickstart, examples, and clarity."

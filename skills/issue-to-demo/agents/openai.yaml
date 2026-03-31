@@ -1,0 +1,4 @@
+interface:
+  display_name: "Issue to Demo"
+  short_description: "Turn a feature idea into demo assets"
+  default_prompt: "Use $issue-to-demo to turn this issue or spec into a short demo plan, shot list, and README-ready proof."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Star Forge"
+  short_description: "Audit a repo page for star conversion"
+  default_prompt: "Use $repo-star-forge to audit this repository for conversion blockers and improve the README, description, and proof assets."

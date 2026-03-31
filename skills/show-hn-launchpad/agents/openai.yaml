@@ -1,0 +1,4 @@
+interface:
+  display_name: "Show HN Launchpad"
+  short_description: "Package a launch across dev channels"
+  default_prompt: "Use $show-hn-launchpad to turn this release into a Show HN, Product Hunt, X, and Reddit launch kit."
