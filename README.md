@@ -1,14 +1,57 @@
+![OSS Flywheel Skills](./assets/oss-flywheel-skills-hero.svg)
+
 # OSS Flywheel Skills
 
-Interesting agent skills for people who ship in public.
+Practical Codex-compatible skills for turning open-source work into demos, launches, sharper repo pages, and contributor momentum.
 
-This repository is a curated set of Codex-compatible skills for indie hackers, open-source maintainers, and small product teams. The theme is simple: turn code into momentum. Better README pages, clearer demos, sharper launches, and friendlier contributor ramps usually beat growth hacks.
+![Skills](https://img.shields.io/badge/skills-6-0f172a?style=flat-square)
+![Format](https://img.shields.io/badge/format-Agent%20Skills-f97316?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-e7e0d4?style=flat-square&labelColor=0f172a)
 
-These skills are designed to be:
+Built for indie hackers, open-source maintainers, and small product teams.
 
-- Useful on a real repo today
-- Memorable enough to share with teammates
-- Focused on the loops that actually grow projects
+If your repo already has code but still lacks momentum, this collection helps convert the work into the assets that actually compound: a stronger README, clearer demo proof, better launch copy, and a friendlier contributor ramp.
+
+## Why People Star Repos
+
+Most stars do not come from "growth hacks." They come from a tighter loop:
+
+1. A visitor lands on the repo.
+2. They understand it fast.
+3. They see proof that it works.
+4. They share it, try it, or contribute.
+
+These skills are designed for that loop.
+
+## Quick Install
+
+Clone the repository:
+
+```bash
+git clone https://github.com/daewoochen/oss-flywheel-skills.git
+cd oss-flywheel-skills
+```
+
+Install one skill or the full set into Codex's default user skill directory:
+
+```bash
+./scripts/install.sh list
+./scripts/install.sh repo-star-forge
+./scripts/install.sh show-hn-launchpad
+./scripts/install.sh all
+```
+
+By default the script links skills into `${CODEX_HOME:-$HOME/.codex}/skills`. If you want a custom destination:
+
+```bash
+./scripts/install.sh repo-star-forge /path/to/custom/skills
+```
+
+## Start Here
+
+- Use `repo-star-forge` when your repo is technically solid but not converting visitors.
+- Use `issue-to-demo` when you need a 30 to 60 second proof asset before posting publicly.
+- Use `show-hn-launchpad` when the build is ready but the launch message is still fuzzy.
 
 ## Skills
 
@@ -21,41 +64,16 @@ These skills are designed to be:
 | `contributor-ramp` | Make a project easier for first-time contributors to join and stick with | `Use $contributor-ramp to create a better first-hour contributor experience.` |
 | `changelog-to-hype` | Turn raw commits and PRs into release notes and distribution copy | `Use $changelog-to-hype to convert the last release into notes, a thread, and a short post.` |
 
-## Quick Install
-
-Clone the repository:
-
-```bash
-git clone https://github.com/<your-account>/oss-flywheel-skills.git
-cd oss-flywheel-skills
-```
-
-List or install skills into Codex's default user skill directory:
-
-```bash
-./scripts/install.sh list
-./scripts/install.sh repo-star-forge
-./scripts/install.sh all
-```
-
-By default the script links skills into `${CODEX_HOME:-$HOME/.codex}/skills`. If you prefer a different destination:
-
-```bash
-./scripts/install.sh repo-star-forge /path/to/custom/skills
-```
-
 You can also symlink individual skill folders manually into any standard Agent Skills location such as `~/.codex/skills` or `.agents/skills`.
 
 ## Why This Collection
 
-A lot of public skill repositories are either too generic or too infrastructure-heavy for solo builders. This one deliberately sits closer to the moments that create compounding visibility:
+A lot of public skill repositories are either too generic or too infrastructure-heavy for solo builders. This one stays close to the moments that create visible momentum:
 
-1. Someone lands on your repo.
-2. They understand the project fast.
-3. They see proof that it works.
-4. They share it, try it, or contribute.
-
-That loop is where stars usually come from.
+- README pages that explain value faster
+- Demos that make a feature feel real
+- Launch kits that do not sound fake
+- Onboarding flows that turn attention into contributors
 
 ## Structure
 
