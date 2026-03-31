@@ -88,6 +88,12 @@ skills/<skill-name>/
 
 `SKILL.md` contains the workflow. `references/` contains only the extra details that are worth loading on demand.
 
+## Launch Assets
+
+If you want to promote this repository, start with the launch kit:
+
+- [launch/oss-flywheel-launch-kit.md](./launch/oss-flywheel-launch-kit.md)
+
 ## Contributing
 
 Open an issue or PR with one strong skill instead of a giant dump of prompts. The bar is:

@@ -1,0 +1,44 @@
+name: Skill request
+description: Suggest a new skill or a strong workflow worth turning into one
+title: "[Skill Request]: "
+labels:
+  - skill-request
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What workflow should this skill help with?
+      description: Describe the real task or repeated pain point.
+      placeholder: I want a skill that helps package benchmark results into a repo-ready comparison section.
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Who is this for?
+      description: Tell us who would benefit most from the skill.
+      placeholder: Open-source maintainers shipping developer tools.
+    validations:
+      required: true
+  - type: textarea
+    id: trigger
+    attributes:
+      label: What should trigger the skill?
+      description: Mention files, situations, or user requests that should activate it.
+      placeholder: Use when a repo has benchmark data but no clean way to present it in a README or launch post.
+    validations:
+      required: true
+  - type: textarea
+    id: outputs
+    attributes:
+      label: What outputs should it produce?
+      description: List the artifacts that would make the skill useful.
+      placeholder: README section draft, chart suggestions, benchmark caveats, and launch-ready summary copy.
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Reference examples
+      description: Link any repos, posts, or examples that show the style you want.
+      placeholder: https://github.com/...

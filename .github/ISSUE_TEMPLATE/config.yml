@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Launch feedback
+    url: https://github.com/daewoochen/oss-flywheel-skills/discussions
+    about: Share launch ideas, positioning feedback, or examples of how you used a skill.
